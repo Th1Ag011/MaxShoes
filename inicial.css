@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Denk+One&family=Montserrat:ital,wght@0,200;0,500;1,300&display=swap');
+
+body {
+  background: rgba(217, 217, 217, 1);
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hearder1 {
+  margin-top: 0.2%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.mercadin:hover {
+  transform: scale(1.2);
+}
+
+.sn:hover {
+  font-size: 14px;
+}
+
+.sn {
+  text-decoration: none;
+  color: black;
+}
+
+.hearder2 {
+  display: grid;
+  margin-bottom: 100%;
+  margin-left: 5%;
+  align-items: center;
+  justify-content: space-around;
+  grid-template-columns: 3fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+  height: 8rem;
+  width: 94%;
+}
+
+.tenis {
+  text-decoration: none;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.logo {
+
+  display: flex;
+  justify-content: center;
+}
+
+.logo:hover {
+  transform: translateY(-4px)
+}
+
+.lo {
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  align-content: flex-end;
+}
+
+
+
+
+.tenis:hover {
+  transform: translateY(-4px);
+  font-size: 21px;
+}
+
+.lo:hover {
+  transform: translateY(-4px);
+  font-size: 21px;
+}
+
+.psq {
+  margin-left: -10%;
+}
+
+.search0 {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  border: solid 1px;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 12px;
+  height: 2.5pc;
+
+  width: 14rem;
+}
+
+.parcerias {
+  border: solid rgb(0, 0, 0) 1px;
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  background: white;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: -100%;
+}
+
+.lojas {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 8%;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.frete {
+  border: solid rgb(0, 0, 0) 1px;
+  height: 5rem;
+  display: grid;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 10%;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  background: white;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.shops {
+  display: grid;
+  grid-template-columns: 0.6fr repeat(6, 0.5fr);
+  grid-gap: 10px;
+  margin-top: 1.2%;
+  width: 110%;
+  margin-left: 3.2%;
+}
+
+
+.line1 {
+  background: rgb(143, 143, 143);
+  height: 2px;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.line2 {
+
+  background: rgb(143, 143, 143);
+  margin-top: 0.2%;
+  height: 2px;
+  width: 100%;
+}
+
+.afnew {
+  background: black;
+  width: 7rem;
+  height: 4px;
+  margin-left: 5%;
+}
+
+.new {
+  font-family: 'Denk One', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  width: 18%;
+  margin-top: 0.1px;
+  margin-left: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.products {
+
+  display: grid;
+  margin-top: 2%;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 8%;
+}
+
+.short:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.mb:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.hv:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.regata:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.bayerm:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.tenispumas:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+.shot:hover {
+  transform: translateY(-4px);
+  transform: scale(1.01);
+}
+
+
+@media(max-width: 390px) {
+  .parcerias {
+    display: none;
+  }
+
+  main {
+    width: 100%;
+    margin-left: 30%;
+  }
+
+  .lo {
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 100%;
+    margin-left: 40%;
+  }
+
+  .shops {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4rem;
+
+  }
+}
+
+@media(max-width: 1420px) {
+  .parcerias {
+    display: none;
+  }
+   
+  .adidasshort { width: 85%; height: auto; margin-left: 0.5rem;}
+    
+  .mb { width: 84%; height: auto; margin-left: 0.5rem;}
+
+  .uahover { width: 84%; height: auto; margin-left: 0.5rem;}
+
+  .regatanike { width: 85%; height: auto; margin-left: 0.5rem;}
+
+
+  .logo {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .shops {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 4rem;
+
+  }
+
+  .products {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   
+
+  }
+
+  .frete {
+    margin-top: -95%;
+  }
+
+  .lo {
+    display: flex;
+    font-size: 10px;
+    margin-top: 6rem;
+    margin-left: 0.5rem;
+    
+  }
+
+  .tenis {
+    font-size: 10px;
+    margin-top: 6rem;
+    
+  }
+  
+
+  .search0 {
+    margin-left: -15rem;
+  }
+
+  .lo:hover {
+    font-size: 12px;
+  }
+
+  .tenis:hover {
+    font-size: 12px;
+  }
+  main {
+    margin-top: -95%;
+  }
+
+  .afnew {
+    display: none;
+  }
+  
+  .productsend { width: 95%;}
+
+  .bayern { width: 101%}
+
+  .bayerm { margin-left: -6%;}
+
+
+
+@media(max-width: 750px) {
+  .new {
+    margin-left: 4%;
+  }
+}
